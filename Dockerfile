@@ -7,5 +7,5 @@ WORKDIR /app
 # Now, I'll copy the contents of the current directory into the container at /app
 COPY . /app
 
-# I'll install any necessary packages specified in requirements.txt
+# I'll install any necessary packages specified in  requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
